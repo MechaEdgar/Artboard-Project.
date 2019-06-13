@@ -17,6 +17,7 @@
 		B949798322B1EB180003D518 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B949798122B1EB180003D518 /* Main.storyboard */; };
 		B949798822B1EB250003D518 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B949798622B1EB250003D518 /* LaunchScreen.storyboard */; };
 		B949798E22B1EBF90003D518 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B949796C22B1E5F40003D518 /* Assets.xcassets */; };
+		B949799022B2DE870003D518 /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B949798F22B2DE870003D518 /* LoginStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		B949798222B1EB180003D518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B949798722B1EB250003D518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B949798922B1EB250003D518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B949798F22B2DE870003D518 /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				B949796922B1E5D40003D518 /* Main.storyboard */,
 				B949796E22B1E5F40003D518 /* LaunchScreen.storyboard */,
 				B949797122B1E5F40003D518 /* Info.plist */,
+				B949798F22B2DE870003D518 /* LoginStoryboard.storyboard */,
 			);
 			path = Artable;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				B949797022B1E5F40003D518 /* LaunchScreen.storyboard in Resources */,
 				B949796D22B1E5F40003D518 /* Assets.xcassets in Resources */,
 				B949796B22B1E5D40003D518 /* Main.storyboard in Resources */,
+				B949799022B2DE870003D518 /* LoginStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
