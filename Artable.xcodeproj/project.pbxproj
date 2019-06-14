@@ -19,6 +19,8 @@
 		B949798822B1EB250003D518 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B949798622B1EB250003D518 /* LaunchScreen.storyboard */; };
 		B949798E22B1EBF90003D518 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B949796C22B1E5F40003D518 /* Assets.xcassets */; };
 		B949799022B2DE870003D518 /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B949798F22B2DE870003D518 /* LoginStoryboard.storyboard */; };
+		B949799622B35EBE0003D518 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = B949799522B35EBE0003D518 /* GoogleService-Info (1).plist */; };
+		B949799822B35ED20003D518 /* GoogleService-Info (2).plist in Resources */ = {isa = PBXBuildFile; fileRef = B949799722B35ED10003D518 /* GoogleService-Info (2).plist */; };
 		DDB0F153077D6F6FE2B24363 /* Pods_ArtableAdmin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C942FBDF82E2E366E670D1D /* Pods_ArtableAdmin.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +45,8 @@
 		B949798722B1EB250003D518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B949798922B1EB250003D518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B949798F22B2DE870003D518 /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
+		B949799522B35EBE0003D518 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		B949799722B35ED10003D518 /* GoogleService-Info (2).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (2).plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,7 @@
 				B949796722B1E5D30003D518 /* ViewController.swift */,
 				B949796922B1E5D40003D518 /* Main.storyboard */,
 				B949796E22B1E5F40003D518 /* LaunchScreen.storyboard */,
+				B949799522B35EBE0003D518 /* GoogleService-Info (1).plist */,
 				B949797122B1E5F40003D518 /* Info.plist */,
 				B949798F22B2DE870003D518 /* LoginStoryboard.storyboard */,
 			);
@@ -117,6 +122,7 @@
 				B949797F22B1EB180003D518 /* ViewController.swift */,
 				B949798122B1EB180003D518 /* Main.storyboard */,
 				B949798622B1EB250003D518 /* LaunchScreen.storyboard */,
+				B949799722B35ED10003D518 /* GoogleService-Info (2).plist */,
 				B949798922B1EB250003D518 /* Info.plist */,
 			);
 			path = ArtableAdmin;
@@ -224,6 +230,7 @@
 			files = (
 				B949797022B1E5F40003D518 /* LaunchScreen.storyboard in Resources */,
 				B949796D22B1E5F40003D518 /* Assets.xcassets in Resources */,
+				B949799622B35EBE0003D518 /* GoogleService-Info (1).plist in Resources */,
 				B949796B22B1E5D40003D518 /* Main.storyboard in Resources */,
 				B949799022B2DE870003D518 /* LoginStoryboard.storyboard in Resources */,
 			);
@@ -233,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B949799822B35ED20003D518 /* GoogleService-Info (2).plist in Resources */,
 				B949798822B1EB250003D518 /* LaunchScreen.storyboard in Resources */,
 				B949798E22B1EBF90003D518 /* Assets.xcassets in Resources */,
 				B949798322B1EB180003D518 /* Main.storyboard in Resources */,
