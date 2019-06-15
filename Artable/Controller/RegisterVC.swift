@@ -26,18 +26,21 @@ class RegisterVC: UIViewController {
     }
     
     @IBAction func resgisterClicked(_ sender: Any) {
-        print("button pressed")
-        guard let email = emailTxt.text , !email.isEmpty,
-            let username = usernameTXT.text , !username.isEmpty,
-            let password = passwordTxt.text , password.isEmpty else { return }
+        guard let email = emailTxt.text ,
+            let username = usernameTXT.text ,
+            let password = passwordTxt.text,
+            !email.isEmpty,
+            !username.isEmpty,
+            !password.isEmpty else { return }
+        
         Auth.auth().createUser(withEmail: email, password: password) { (authResult, error) in
             
             if let error = error {
                 debugPrint(error)
                 return
             }
+            print("succesfully resgistered new user")
             
-            print("succesfully registered new user")
         }
 
     }
