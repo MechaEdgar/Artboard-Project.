@@ -229,8 +229,10 @@
                     </view>
                     <connections>
                         <outlet property="activityIndicator" destination="ui6-Km-XdX" id="FMR-kC-jaQ"/>
+                        <outlet property="confirmImgCheck" destination="Nzu-ZK-hmo" id="pbh-48-Ncp"/>
                         <outlet property="confirmPassTxt" destination="NeZ-fa-imU" id="We7-9Q-kfT"/>
                         <outlet property="emailTxt" destination="JYn-xG-cjt" id="hM8-ZC-4Hg"/>
+                        <outlet property="passImgCheck" destination="TDL-fU-YRX" id="FpN-eY-CWe"/>
                         <outlet property="passwordTxt" destination="hIp-e0-9mn" id="LgS-tD-GSF"/>
                         <outlet property="usernameTXT" destination="bK1-yV-j73" id="3Ee-as-W5s"/>
                     </connections>
