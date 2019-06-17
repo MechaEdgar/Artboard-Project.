@@ -45,11 +45,11 @@ class RegisterVC: UIViewController {
         
         //Make it so when the passwords match, the checkmars turn green.
         if passwordTxt.text == confirmPassTxt.text {
-            passImgCheck.image = UIImage(named: "green_check")
-            confirmImgCheck.image = UIImage(named: "green_check")
+            passImgCheck.image = UIImage(named: AppImages.GreenCheck)
+            confirmImgCheck.image = UIImage(named: AppImages.GreenCheck)
         } else {
-            passImgCheck.image = UIImage(named: "red_check")
-            confirmImgCheck.image = UIImage(named: "red_check")
+            passImgCheck.image = UIImage(named: AppImages.RedCheck)
+            confirmImgCheck.image = UIImage(named: AppImages.RedCheck)
         }
     }
     
