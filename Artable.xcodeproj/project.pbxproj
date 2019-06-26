@@ -10,6 +10,8 @@
 		1A9D1F8DDC4C0131D925EF75 /* Pods_Artable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D894E102A4B179159259C7 /* Pods_Artable.framework */; };
 		B93A91D422C2F5340011492B /* Firebase+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93A91D322C2F5340011492B /* Firebase+Utils.swift */; };
 		B93A91D522C2F6220011492B /* Firebase+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93A91D322C2F5340011492B /* Firebase+Utils.swift */; };
+		B93A91D722C302A00011492B /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93A91D622C302A00011492B /* Category.swift */; };
+		B93A91D822C302A00011492B /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93A91D622C302A00011492B /* Category.swift */; };
 		B949796622B1E5D30003D518 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B949796522B1E5D30003D518 /* AppDelegate.swift */; };
 		B949796822B1E5D30003D518 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B949796722B1E5D30003D518 /* ViewController.swift */; };
 		B949796B22B1E5D40003D518 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B949796922B1E5D40003D518 /* Main.storyboard */; };
@@ -41,6 +43,7 @@
 		809BE6EEDAE3B015DAB575DA /* Pods-Artable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Artable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Artable/Pods-Artable.debug.xcconfig"; sourceTree = "<group>"; };
 		B8D894E102A4B179159259C7 /* Pods_Artable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Artable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B93A91D322C2F5340011492B /* Firebase+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Firebase+Utils.swift"; sourceTree = "<group>"; };
+		B93A91D622C302A00011492B /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		B949796222B1E5D30003D518 /* Artable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Artable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B949796522B1E5D30003D518 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B949796722B1E5D30003D518 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -122,7 +125,6 @@
 			isa = PBXGroup;
 			children = (
 				B9E60A6122BC73A8007E8EB3 /* New Group */,
-				B973B41122B43A7700113FD6 /* Model */,
 				B973B41022B43A6C00113FD6 /* View */,
 				B973B40F22B43A5900113FD6 /* Controller */,
 				B949799522B35EBE0003D518 /* GoogleService-Info.plist */,
@@ -147,6 +149,7 @@
 		B949798D22B1EBD50003D518 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				B973B41122B43A7700113FD6 /* Model */,
 				B973B43C22B7646A00113FD6 /* View */,
 				B973B43722B5DD4300113FD6 /* Utils */,
 				B949796C22B1E5F40003D518 /* Assets.xcassets */,
@@ -176,6 +179,7 @@
 		B973B41122B43A7700113FD6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B93A91D622C302A00011492B /* Category.swift */,
 			);
 			name = Model;
 			path = "New Group1";
@@ -451,6 +455,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B93A91D422C2F5340011492B /* Firebase+Utils.swift in Sources */,
+				B93A91D722C302A00011492B /* Category.swift in Sources */,
 				B973B43922B5DE9700113FD6 /* Extensions.swift in Sources */,
 				B949796822B1E5D30003D518 /* ViewController.swift in Sources */,
 				B973B41622B43C0200113FD6 /* RegisterVC.swift in Sources */,
@@ -469,6 +474,7 @@
 				B93A91D522C2F6220011492B /* Firebase+Utils.swift in Sources */,
 				B949798022B1EB180003D518 /* ViewController.swift in Sources */,
 				B949797E22B1EB180003D518 /* AppDelegate.swift in Sources */,
+				B93A91D822C302A00011492B /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
