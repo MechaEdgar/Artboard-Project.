@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1A9D1F8DDC4C0131D925EF75 /* Pods_Artable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D894E102A4B179159259C7 /* Pods_Artable.framework */; };
+		B93A91D422C2F5340011492B /* Firebase+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93A91D322C2F5340011492B /* Firebase+Utils.swift */; };
+		B93A91D522C2F6220011492B /* Firebase+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93A91D322C2F5340011492B /* Firebase+Utils.swift */; };
 		B949796622B1E5D30003D518 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B949796522B1E5D30003D518 /* AppDelegate.swift */; };
 		B949796822B1E5D30003D518 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B949796722B1E5D30003D518 /* ViewController.swift */; };
 		B949796B22B1E5D40003D518 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B949796922B1E5D40003D518 /* Main.storyboard */; };
@@ -38,6 +40,7 @@
 		68CD923562109D06F32E2585 /* Pods-Artable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Artable.release.xcconfig"; path = "Pods/Target Support Files/Pods-Artable/Pods-Artable.release.xcconfig"; sourceTree = "<group>"; };
 		809BE6EEDAE3B015DAB575DA /* Pods-Artable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Artable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Artable/Pods-Artable.debug.xcconfig"; sourceTree = "<group>"; };
 		B8D894E102A4B179159259C7 /* Pods_Artable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Artable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B93A91D322C2F5340011492B /* Firebase+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Firebase+Utils.swift"; sourceTree = "<group>"; };
 		B949796222B1E5D30003D518 /* Artable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Artable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B949796522B1E5D30003D518 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B949796722B1E5D30003D518 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -144,8 +147,8 @@
 		B949798D22B1EBD50003D518 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				B973B43C22B7646A00113FD6 /* New Group1 */,
-				B973B43722B5DD4300113FD6 /* New Group */,
+				B973B43C22B7646A00113FD6 /* View */,
+				B973B43722B5DD4300113FD6 /* Utils */,
 				B949796C22B1E5F40003D518 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -188,21 +191,22 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
-		B973B43722B5DD4300113FD6 /* New Group */ = {
+		B973B43722B5DD4300113FD6 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
 				B973B43822B5DE9600113FD6 /* Extensions.swift */,
 				B973B43A22B73CD400113FD6 /* Constants.swift */,
+				B93A91D322C2F5340011492B /* Firebase+Utils.swift */,
 			);
-			path = "New Group";
+			path = Utils;
 			sourceTree = "<group>";
 		};
-		B973B43C22B7646A00113FD6 /* New Group1 */ = {
+		B973B43C22B7646A00113FD6 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				B973B43D22B764DD00113FD6 /* RoundedViews.swift */,
 			);
-			path = "New Group1";
+			path = View;
 			sourceTree = "<group>";
 		};
 		B9E60A6122BC73A8007E8EB3 /* New Group */ = {
@@ -446,6 +450,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B93A91D422C2F5340011492B /* Firebase+Utils.swift in Sources */,
 				B973B43922B5DE9700113FD6 /* Extensions.swift in Sources */,
 				B949796822B1E5D30003D518 /* ViewController.swift in Sources */,
 				B973B41622B43C0200113FD6 /* RegisterVC.swift in Sources */,
@@ -461,6 +466,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B93A91D522C2F6220011492B /* Firebase+Utils.swift in Sources */,
 				B949798022B1EB180003D518 /* ViewController.swift in Sources */,
 				B949797E22B1EB180003D518 /* AppDelegate.swift in Sources */,
 			);
@@ -628,6 +634,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 65XW742FJ2;
 				INFOPLIST_FILE = Artable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -647,6 +654,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 65XW742FJ2;
 				INFOPLIST_FILE = Artable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -666,6 +674,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 65XW742FJ2;
 				INFOPLIST_FILE = ArtableAdmin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -685,6 +694,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 65XW742FJ2;
 				INFOPLIST_FILE = ArtableAdmin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

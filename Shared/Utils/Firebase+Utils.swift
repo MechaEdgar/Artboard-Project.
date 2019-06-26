@@ -1,40 +1,24 @@
 //
-//  Extensions.swift
+//  Firebase+Utils.swift
 //  Artable
 //
-//  Created by Edgar Escorza on 6/15/19.
+//  Created by Edgar Escorza on 6/25/19.
 //  Copyright © 2019 Edgar Escorza. All rights reserved.
 //
 
-import Foundation
-import UIKit
 import Firebase
 
-extension String {
+extension Auth {
     
-    var isNotEmpty : Bool{
-        return !isEmpty
-    }
-    
-}
-
-extension UIViewController {
-    
-    func handleFireAuthError(error: Error) {
+    func handleFireAuthError(error: Error, vc: UIViewController) {
         if let errorCode = AuthErrorCode(rawValue: error._code) {
             
             let alert = UIAlertController(title: "Error", message: errorCode.errorMessage, preferredStyle: .alert)
             let okAction = UIAlertAction(title: "Ok", style: .default, handler: nil)
             alert.addAction(okAction)
-            present(alert, animated: true, completion: nil)
+            vc.present(alert, animated: true, completion: nil)
             
         }
-    }
-    
-    func simpleAlert(title: String, msg: String) {
-        let alert = UIAlertController(title: title, message: msg, preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
-        present(alert, animated: true, completion: nil)
     }
 }
 
